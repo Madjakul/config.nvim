@@ -1,0 +1,1 @@
+let g:airline_theme='minimalist' " <theme> is a valid theme name
