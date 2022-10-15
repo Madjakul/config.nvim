@@ -37,3 +37,9 @@ augroup vimrc-remember-cursor-position
     autocmd!
     autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
 augroup END
+
+" Clipboard
+set clipboard=unnamed
+
+" open terminal below all splits
+cabbrev bterm bo term
