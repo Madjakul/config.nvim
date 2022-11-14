@@ -16,6 +16,7 @@ set virtualedit+=onemore
 " General/Aesthetic
 set nowrap
 set number
+set nornu
 set cursorline
 set lazyredraw
 set scrolloff=8 
@@ -29,9 +30,7 @@ set mouse=a
 
 set colorcolumn=80
 
-" Smooth scrolling
-nnoremap <C-U> <C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y><C-Y>
-nnoremap <C-D> <C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E><C-E>
+
 
 augroup vimrc-remember-cursor-position
     autocmd!
