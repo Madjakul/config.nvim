@@ -16,6 +16,3 @@ call SourceDirectory('$HOME/.config/nvim/plugin/plugins')
 
 " Plugin configuration
 call SourceDirectory('$HOME/.config/nvim/plugin/plug-config')
-
-" Clipboard
-set clipboard=unnamed

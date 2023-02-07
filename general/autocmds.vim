@@ -31,6 +31,9 @@ augroup LargeFile
   autocmd BufReadPre * call s:handle_large_file()
 augroup END
 
-" Open terminal at the bottom
-autocmd VimEnter * below terminal
+" Autorefreshing NERDTree
+autocmd BufWritePost * NERDTreeFocus | execute 'normal R' | wincmd p
+
+" Updating Plugins at startup
+autocmd VimEnter * UpdateRemotePlugins
 

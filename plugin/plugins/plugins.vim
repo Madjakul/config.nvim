@@ -21,12 +21,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " C++ linter
 Plug 'neomake/neomake'
-" Multiple selection
-Plug 'terryma/vim-multiple-cursors'
 " Copy/past highlighter
 Plug 'machakann/vim-highlightedyank'
-" Python auto folder
-Plug 'tmhedberg/SimpylFold'
 " Vim theme
 Plug 'morhetz/gruvbox'
 " Commenting with variations on gcc
@@ -39,7 +35,14 @@ Plug 'tpope/vim-fugitive'
 Plug 'sheerun/vim-polyglot'
 " Ident lines
 Plug 'Yggdroot/indentLine'
+" Fuzzy finder
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
+" NERDTree icons
+Plug 'ryanoasis/vim-devicons'
+set encoding=UTF-8
 call plug#end()
 
 " Coloscheme
 colorscheme gruvbox
+

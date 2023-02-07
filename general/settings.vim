@@ -1,24 +1,25 @@
 set encoding=utf-8
 
-syntax on
-
-filetype on 
-filetype indent on 
-filetype plugin on
+" Tabs
+set tabstop=4 softtabstop=4 shiftwidth=4
+set smarttab expandtab
 
 " Indenting
-set autoindent
+set autoindent smartindent
 
 " Improved Visual-Block mode
 set virtualedit+=block
 set virtualedit+=onemore
 
 " General/Aesthetic
+set tw=0
+set wm=0
 set nowrap
+set linebreak
 set number
 set nornu
 set cursorline
-set lazyredraw
+set ruler
 set scrolloff=8 
 set cmdheight=2
 set visualbell
@@ -30,7 +31,7 @@ set mouse=a
 
 set colorcolumn=80
 
-
+set ls=2  "Always show status line"
 
 augroup vimrc-remember-cursor-position
     autocmd!
@@ -40,5 +41,4 @@ augroup END
 " Clipboard
 set clipboard=unnamed
 
-" open terminal below all splits
-cabbrev bterm bo term
+set langmap=([,)]

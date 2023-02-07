@@ -17,6 +17,9 @@ nmap <Leader>r r :NERDTreeFocus<cr>R<c-w><c-p>
 
 " navigate through windows
 nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>k
-nnoremap <C-k> <C-w>j
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" Splitting vertically the screen
+nnoremap <Leader>v <esc><C-w>v

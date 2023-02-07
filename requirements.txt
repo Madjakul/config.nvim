@@ -1,0 +1,8 @@
+# Package  
+# --------
+setuptools
+wheel
+greenlet  
+jedi
+msgpack
+pynvim
