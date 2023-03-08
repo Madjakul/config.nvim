@@ -15,7 +15,7 @@ git clone https://github.com/Madjakul/config.nvim.git
 
 Make sure you have the right to execute `install_config.sh` script and execute it within the cloned directory
 ```sh
-chmod u+x ./install_congif.sh && ./install_config.sh
+chmod u+x ./install_config.sh && ./install_config.sh
 ```
 
 Everything should be installed and ready to use, check health with
