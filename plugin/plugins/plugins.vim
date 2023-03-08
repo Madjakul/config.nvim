@@ -41,6 +41,15 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.1' }
 " NERDTree icons
 Plug 'ryanoasis/vim-devicons'
 set encoding=UTF-8
+" LSP Support
+Plug 'neovim/nvim-lspconfig'             " Required
+Plug 'williamboman/mason.nvim'           " Optional
+Plug 'williamboman/mason-lspconfig.nvim' " Optional
+"  Snippets
+Plug 'L3MON4D3/LuaSnip'             " Required
+Plug 'rafamadriz/friendly-snippets' " Optional
+
+Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v1.x'}
 call plug#end()
 
 " Coloscheme
