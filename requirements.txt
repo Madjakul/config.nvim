@@ -2,7 +2,6 @@
 # --------
 setuptools
 wheel
-greenlet  
-jedi
+greenlet
 msgpack
 pynvim
