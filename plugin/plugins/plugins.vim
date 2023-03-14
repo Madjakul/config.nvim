@@ -1,11 +1,11 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Plug 'davidhalter/jedi-vim'
+Plug 'davidhalter/jedi-vim'
 " Autocomplete
-" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-"Plug 'zchee/deoplete-jedi'
-" Plug 'zchee/deoplete-clang'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+Plug 'zchee/deoplete-clang'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Vim status bar theme
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -48,10 +48,10 @@ Plug 'williamboman/mason-lspconfig.nvim' " Optional
 " Autocompletion Engine
 Plug 'hrsh7th/nvim-cmp'         " Required
 Plug 'hrsh7th/cmp-nvim-lsp'     " Required
-Plug 'hrsh7th/cmp-buffer'       " Optional
-Plug 'hrsh7th/cmp-path'         " Optional
-Plug 'saadparwaiz1/cmp_luasnip' " Optional
-Plug 'hrsh7th/cmp-nvim-lua'     " Optional
+" Plug 'hrsh7th/cmp-buffer'       " Optional
+" Plug 'hrsh7th/cmp-path'         " Optional
+" Plug 'saadparwaiz1/cmp_luasnip' " Optional
+" Plug 'hrsh7th/cmp-nvim-lua'     " Optional
 "  Snippets
 Plug 'L3MON4D3/LuaSnip'             " Required
 Plug 'rafamadriz/friendly-snippets' " Optional
