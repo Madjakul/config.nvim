@@ -5,4 +5,3 @@ wheel
 greenlet
 msgpack
 pynvim
-jedi
