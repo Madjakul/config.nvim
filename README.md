@@ -8,19 +8,35 @@ A simple Neovim configuration for Python and C++ projects. My configuration uses
 
 ## Installation
 
-Clone the repository and access it
+Make sure you have [vim-plug](https://github.com/junegunn/vim-plug) installed!
+
+Access config file.
 ```sh
-git clone https://github.com/Madjakul/config.nvim.git
+cd ~/.config/
+```
+
+Clone the repository with the name "nvim" and access it
+```sh
+git clone https://github.com/Madjakul/config.nvim.git nvim
+cd nvim
 ```
 
 Make sure you have the right to execute `install_config.sh` script and execute it within the cloned directory
 ```sh
-chmod u+x ./install_config.sh && ./install_config.sh
+chmod u+x ./install_config.sh
+./install_config.sh
 ```
 
 Everything should be installed and ready to use, check health with
 ```sh
-nvim
+nvim .
+```
+
+###
+
+Some usefull LSP linters
+```
+:CocInstall coc-sh coc-clangd coc-cmake coc-html coc-java coc-tsserver coc-json coc-markdownlint marlonfan/coc-phpls sql-language-server
 ```
 
 

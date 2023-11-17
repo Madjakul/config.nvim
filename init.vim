@@ -10,6 +10,7 @@ endfunction
 
 call SourceDirectory('$HOME/.config/nvim/general')
 call SourceDirectory('$HOME/.config/nvim/autoload')
+call SourceDirectory('$HOME/.config/nvim/autoload/neoformat/formatters')
 
 " Plugins
 call SourceDirectory('$HOME/.config/nvim/plugin/plugins')

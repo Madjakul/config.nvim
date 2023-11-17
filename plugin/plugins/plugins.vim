@@ -3,7 +3,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 " Plug 'davidhalter/jedi-vim'
 " Autocomplete
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-" Plug 'zchee/deoplete-jedi'
 Plug 'zchee/deoplete-clang'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Vim status bar theme
@@ -11,8 +10,6 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Autoclose pairs of "", [], {}, and more
 Plug 'jiangmiao/auto-pairs'
-" Python formatter
-Plug 'sbdchd/neoformat'
 " Auto formatter
 Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
 " Directory tree
@@ -54,7 +51,7 @@ Plug 'hrsh7th/cmp-nvim-lsp'     " Required
 " Plug 'hrsh7th/cmp-nvim-lua'     " Optional
 "  Snippets
 Plug 'L3MON4D3/LuaSnip'             " Required
-Plug 'rafamadriz/friendly-snippets' " Optional
+" Plug 'rafamadriz/friendly-snippets' " Optional
 
 Plug 'VonHeikemen/lsp-zero.nvim', {'branch': 'v1.x'}
 call plug#end()
