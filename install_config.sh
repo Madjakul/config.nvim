@@ -11,11 +11,15 @@ sudo apt-get install neovim
 # Installing the plugin manager
 echo ${green}=== Installing Vim Plug ===${reset}
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Installing the Python's dependencies
 echo ${green}=== Installing Python\'s Dependencies ===${reset}
 pip3 install --upgrade -r requirements.txt
+
+# Installing Node.js 21.x
+curl -fsSL https://deb.nodesource.com/setup_21.x | sudo -E bash - &&\
+sudo apt-get install -y nodejs
 
 # Installing the correct font
 echo ${green}=== Installing the Roboto Font ===${reset}
@@ -37,4 +41,4 @@ fc-cache -fv
 
 # Installing the plugins
 echo ${green}=== Installing the NVim Plugins ===${reset}
-nvim +PlugInstall +PlugUpdate +qall
+nvim +PlugInstall +PlugUpdate +CocInstall coc-pyright coc-sh coc-clangd coc-cmake coc-html coc-java coc-tsserver coc-json coc-markdownlint +qall
