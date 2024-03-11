@@ -4,7 +4,7 @@ A simple Neovim configuration.
 
 ---
 
-Mostly suited for Python and C++ projects and using [vim-plug](https://github.com/junegunn/vim-plug), this config
+Mostly suited for Python and C++ projects and using [vim-plug](https://github.com/junegunn/vim-plug).
 
 
 
@@ -65,11 +65,6 @@ Make sure you have the right to execute `install_config.sh` script and execute i
 ```sh
 chmod u+x ./install_config.sh
 ./install_config.sh
-```
-
-Everything should be installed and ready to use, check health with
-```sh
-nvim .
 ```
 
 
@@ -155,11 +150,10 @@ nvim +PlugInstall +PlugUpdate +qall
 
 ## Usage
 
-Clone this repository under the name "nvim" in your `~/.config/` folder.
+Once everything is installed, you can use neovim with
 
 ```sh
-cd ~/.config
-git clone https://github.com/Madjakul/config.nvim.git nvim
+nvim .
 ```
 
 
