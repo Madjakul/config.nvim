@@ -11,7 +11,7 @@ Plug 'vim-airline/vim-airline-themes'
 " Autoclose pairs of "", [], {}, and more
 Plug 'jiangmiao/auto-pairs'
 " Auto formatter
-Plug 'prettier/vim-prettier', { 'do': 'yarn install --frozen-lockfile --production' }
+Plug 'sbdchd/neoformat'
 " Directory tree
 Plug 'scrooloose/nerdtree'
 " Directory tree highlighter

@@ -29,7 +29,7 @@ set showcmd
 " Enable mouse
 set mouse=a
 
-set colorcolumn=80
+set colorcolumn=89
 
 set ls=2  "Always show status line"
 
